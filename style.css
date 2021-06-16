@@ -1,0 +1,76 @@
+/* Three columns side by side */
+.column {
+ float: left;
+ position: relative;
+ 
+  width: 20%;
+  margin-bottom: 16px;
+  margin-top: 30px;
+  margin-left: 135px;
+  padding: 0 8px;
+  /* display: inline-flex; */
+  
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 10%;
+    display: block;
+    align-items: center;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 7px 30px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(243, 187, 229);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+h2{
+  color:white;
+}
+p{
+  color:rgb(243, 187, 229);
+}
