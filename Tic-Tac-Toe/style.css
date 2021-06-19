@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color:black;
+  background-color:#f2b179;
 }
 
 body {
@@ -14,23 +14,24 @@ body {
 }
 
 .container {
-  background: #0072b4;
+  background: #f2b179;
   margin: 50px;
   padding: 50px;
   border-radius: 25px;
+  box-shadow: 5px 5px 5px 5px #ce9059;
 }
 
 .title {
   text-align: center;
-  background-color: #0072b4;
+  background-color: #f2b179;
 }
 
 .title span {
   color: #F2EBD3;
-  background-color: #0072b4;
+  background-color: #f2b179;
 }
 .status{
-    background-color: #0072b4;
+    background-color: #f2b179;
 }
 
 .status-action {
@@ -39,26 +40,26 @@ body {
   font-size: 25px;
   justify-content: space-around;
   height: 30px;
-  background-color: #0072b4;
+  background-color: #f2b179;
 }
 
 .status span {
   color: #F2EBD3;
-  background-color: #0ba5cc;
+  background-color: #f2b179;
 }
 
 .reset {
   cursor: pointer;
-  background-color: #0072b4;
+  background-color: #f2b179;
 }
 
 .reset:hover {
   color: #F2EBD3;
-  background-color: #0072b4;
+  background-color: #f2b179;
 }
 
 .game-grid {
-  background: #3989b8;
+  background: #ce9059;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -67,7 +68,7 @@ body {
 }
 
 .game-cell {
-  background: #0072b4;
+  background: #f2b179;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +94,7 @@ body {
 }
 
 .won::after {
-  color: #7fee00;
+  color: #1dce06;
 }
 
 @media only screen and (max-width: 1024px) {
