@@ -1,3 +1,4 @@
 JS-Games : 2048 and Tic-Tac-Toe
+* Play here: https://khushi200701.github.io/JS-Games/
 
-![screenshot]("Screenshot_1.png")
+![screen_gif]("screen.gif")
