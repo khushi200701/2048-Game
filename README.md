@@ -7,6 +7,9 @@ JS-Games : 2048 and Tic-Tac-Toe
  -->
 <p float="left">
   <img src="Make-2048/Screenshot_2048.png" width="450" height="500" />
-  <img src="Tic-Tac-Toe/Screenshot_tictactoe.png" width="450" height="500"/> 
+ </p>
+ 
+<p float="right">
+  <img src="Tic-Tac-Toe/Screenshot_tictactoe.png" width="450" height="500"/> </p>
 <!--   <img src="/img3.png" width="100" /> -->
-</p>
+
