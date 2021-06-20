@@ -6,7 +6,7 @@ JS-Games : 2048 and Tic-Tac-Toe
 ![2048](Make-2048/Screenshot_2048.png)  |  ![tictactoe](Tic-Tac-Toe/Screenshot_tictactoe.png)
  -->
 <p float="left">
-  <img src="Make-2048/Screenshot_2048.png" width="100" height="450" />
-  <img src="Tic-Tac-Toe/Screenshot_tictactoe.png" width="100" height="500"/> 
+  <img src="Make-2048/Screenshot_2048.png" width="450" height="500" />
+  <img src="Tic-Tac-Toe/Screenshot_tictactoe.png" width="450" height="500"/> 
 <!--   <img src="/img3.png" width="100" /> -->
 </p>
